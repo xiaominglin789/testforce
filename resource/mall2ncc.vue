@@ -1,13 +1,18 @@
 <template>
   <div class="app">
     主页模块
+    <myList />
   </div>
 </template>
 
 <script>
+import myList from './components/my-list'
+
 export default {
   name:'mall2ncc',
-  components: {},
+  components: {
+    myList
+  },
   props: {},
   data () {
     return {
