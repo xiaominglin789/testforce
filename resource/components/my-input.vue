@@ -19,7 +19,6 @@ export default {
       console.log('输入了: ', this.city)
     }
   }
-  }
 }
 </script>
 
