@@ -29,7 +29,7 @@ export default {
     return {
       city: '',
       list: [
-        { name: '北京市', code: '100100' },
+        { name: '北京市', code: '100100', id: 1 },
         { name: '上海市', code: '100600' },
         { name: '天津市', code: '100800' },
         { name: '重庆市', code: '100900' },
