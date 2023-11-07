@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <input type="text" v-model="city" placeholder="xxxxxxxxxx请输入商城IDxxxxxxxxxxxx"  @change="handleChange" />
+    <input type="text" v-model="city" placeholder="请输入城市行政代码"  @change="handleChange" />
   </div>
 </template>
 
