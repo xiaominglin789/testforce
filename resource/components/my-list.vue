@@ -33,6 +33,8 @@ export default {
         { name: '上海市', code: '100600' },
         { name: '天津市', code: '100800' },
         { name: '重庆市', code: '100900' },
+        { name: '广东省', code: '101000' },
+        { name: '广西省', code: '101100' }
       ]
     }
   },
