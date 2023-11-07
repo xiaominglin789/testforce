@@ -22,12 +22,12 @@ export default {
         nccPhone: '',
         mallContact: '',
         nccContact: '',
-        mallContactPhone: '',
-
+        mallContactPhone: ''
       }
     }
   }
 }
+</script>
 
 <style scoped>
 .app {}
