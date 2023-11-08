@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <input type="text" v-model="city" placeholder="请输入商城ID"  @change="handleChange" />
+    <input type="text" v-model="city" placeholder="请输入商城ID" @change="handleChangeEvent" />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
     }
   },
   methods: {
-    handleChange () {
+    handleChangeEvent () {
       console.log('输入了: ', this.city)
     }
   }
